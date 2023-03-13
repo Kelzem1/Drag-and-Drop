@@ -33,6 +33,5 @@ papelera.addEventListener("dragover", event => {
 papelera.addEventListener("drop", event =>{
     const id_parrafo = event.dataTransfer.getData("id")
     document.getElementById(id_parrafo).remove()
-    console.log("dropeado")
 })
 

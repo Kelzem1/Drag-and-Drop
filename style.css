@@ -1,11 +1,23 @@
+*{
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18%;
+    box-shadow: inset;
+}
 .seccion{
-    background-color: black;
-    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: rgb(247, 244, 240);
     padding: 1rem;
     margin: 1rem;
+    width: 70%;
 }
 .parrafo{
-    background-color: gray;
+    background-color: rgba(151, 0, 71, 0.671);
     padding: 1rem;
 }
 
@@ -13,10 +25,17 @@
     opacity: 50%;
 }
 .papelera{
-    background-color: burlywood;
     width: 100px;
     height: 100px;
     color: aliceblue;
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 5%;
+}
+.papelera img{
+    width: 60px;
+    height: 60px;
 }
