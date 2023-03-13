@@ -1,0 +1,22 @@
+.seccion{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 1rem;
+    margin: 1rem;
+}
+.parrafo{
+    background-color: gray;
+    padding: 1rem;
+}
+
+.parrafo.dragging{
+    opacity: 50%;
+}
+.papelera{
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    text-align: center;
+    
+}
